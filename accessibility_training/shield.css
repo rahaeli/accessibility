@@ -76,9 +76,11 @@ ul {
     list-style: circle outside none;
 }
 a:link, .link {
+    font-weight: bolder;
     color: #CCCC99;
 }
 a:visited {
+    font-weight: bolder;
     color: #999966;
 }
 a:hover, a:focus, .link:hover, .link:focus {
