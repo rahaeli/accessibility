@@ -3,6 +3,12 @@
 // http://oaa-accessibility.org/example/25/
 // Modified by Terrill Thompson, http://staff.washington.edu/tft
 
+
+
+// DON'T LOOK HERE UNTIL YOU'VE DONE THE EXERCISE. This is the
+// code for the accessible fixed version of the site! You
+// should edit the broken version.
+
 $(document).ready(function() {
 	var menu1 = new menubar('nav', false);
 }); // end ready()
