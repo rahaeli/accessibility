@@ -390,13 +390,15 @@
 
 <h3><a name="3.1">3.1.</a> Write link anchor text descriptively.</h3>
 
-<p>	<strong>Screenreader access, cognitive access</strong>: How many times have you seen text on a webpage like "To change your password, <u>click here</u>", with "click here" being the link? Those constructions are bad for cognitive accessibility because they give no real sense of what lies on the other side of the link. Screenreaders, meanwhile, have the ability to pull out all the links on a page and only read those &mdash; intended to keep you from having to listen to the whole page to find that one link you know is buried somewhere on the page &mdash; except they read by link anchor text, isolated from link context. A page that's full of "click here" links will be read as "click here, click here, click here".</p>
+<p>	<strong>Screenreader access, cognitive access</strong>: How
+many times have you seen text on a webpage like "To change your
+password, <a href="#">click here</a>", with "click here" being the link? Those constructions are bad for cognitive accessibility because they give no real sense of what lies on the other side of the link. Screenreaders, meanwhile, have the ability to pull out all the links on a page and only read those &mdash; intended to keep you from having to listen to the whole page to find that one link you know is buried somewhere on the page &mdash; except they read by link anchor text, isolated from link context. A page that's full of "click here" links will be read as "click here, click here, click here".</p>
 
 <p>	As a good rule of thumb, links to another page on your site should use the title of the page (as it appears in the browser tab, which should also be the same as the <var>&lt;h1&gt;</var> heading on the page) as the link anchor text. You can vary this rule to make sentences make more sense or to provide some variety, but it's a good rule to start off with.</p>
 
 <p>	Rephrasing sentences so you can use meaningful link text takes some practice. It's the subtle sort of thing few people consciously notice, but once you get in the habit of doing it, you'll notice your site copy is much more concise, dynamic and vivid:</p>
 
-<table>
+<table summary="Weaker and stronger ways to indicate link text">
 <tr>
     <th scope="col" role="columnheader" aria-labelledby="Instead of">Instead of:</th>
     <th scope="col" role="columnheader" aria-labelledby="Use">Use:</th>
